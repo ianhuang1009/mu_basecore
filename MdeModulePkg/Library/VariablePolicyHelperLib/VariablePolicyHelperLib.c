@@ -293,7 +293,7 @@ CreateVarStateVariablePolicy (
 EFI_STATUS
 EFIAPI
 RegisterBasicVariablePolicy (
-  IN        EDKII_VARIABLE_POLICY_PROTOCOL  *VariablePolicy,
+  IN        VARIABLE_POLICY_PROTOCOL  *VariablePolicy,
   IN CONST  EFI_GUID                        *Namespace,
   IN CONST  CHAR16                          *Name OPTIONAL,
   IN        UINT32                          MinSize,
@@ -361,7 +361,7 @@ RegisterBasicVariablePolicy (
 EFI_STATUS
 EFIAPI
 RegisterVarStateVariablePolicy (
-  IN        EDKII_VARIABLE_POLICY_PROTOCOL  *VariablePolicy,
+  IN        VARIABLE_POLICY_PROTOCOL  *VariablePolicy,
   IN CONST  EFI_GUID                        *Namespace,
   IN CONST  CHAR16                          *Name OPTIONAL,
   IN        UINT32                          MinSize,
